@@ -69,7 +69,7 @@ data = {
 When the users ask for a result, they should send a url string like this:
 
 ```
-url = https://107.22.107.142/targets-var/<var-target>/categories/<categorie>
+url = https://107.22.107.142/targets-var/<var-target>/categories/<category>
 
 ```
 
@@ -85,7 +85,7 @@ https://107.22.107.142/targets-var/qtysold/categories/Todas
 
 You can copy and paste this string in the browser and to observe the json file result.
 
-When the query is made for first time with a particular selections of target variable and categorie, it is neccesary to train a new model for this specific scenario. Therefore the api may take a few minutes to respond the result. And conversely, when the model was previously created, the result is displayed more quickly.
+When the query is made for first time with a particular selections of target variable and category, it is neccesary to train a new model for this specific scenario. Therefore the api may take a few minutes to respond the result. And conversely, when the model was previously created, the result is displayed more quickly.
 
 # Files:
 
